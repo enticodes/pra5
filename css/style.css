@@ -1,0 +1,145 @@
+*{margin:0;
+padding:0;}
+
+ul,ol{list-style-type: none;}
+
+a{text-decoration: none;}
+
+.container{width: 1140px;
+margin: 0 auto;}
+
+h1 h2 h3 p{margin: 0;
+padding:0;
+line-height: 0.8;}
+/* all common css end */
+
+#headerpart{padding: 20px 0;
+background-color: rgb(11, 11, 11);
+position: fixed;
+top:0;
+left:0;
+width: 100%;}
+
+.logomenu{display: flex;
+justify-content: space-between;
+align-items: center;}
+
+
+.logomenu ul{display: flex;
+align-items: center;}
+
+.logomenu ul li a{padding:0 15px;
+color: red;
+font-family: 'Times New Roman', Times, serif;
+font-size: 20px;
+font-weight: 700;
+}
+
+.menu{display:flex;}
+
+
+.button a{padding:12px 25px;
+background-color: red;
+border-radius: 5px;
+border: 1px solid;
+color: black;
+font-weight:400;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 20px;}
+
+.button a:hover{background: grey;
+color: red;
+border:1px solid}
+
+
+/* headerpart end */
+
+
+#bannerbg{background: url(../images/Screenshot\ 2026-03-25\ 182312.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+padding: 250px 0;}
+
+
+
+.bannercon h1{color: red;
+font-size: 50px;
+font-weight: 700;
+}
+
+
+.bannercon h3{color: grey;
+font: size 20px;
+font-weight: 600;
+padding-top: 30px;
+padding-bottom: 30px;}
+
+.bannercon p{color: yellow;
+    font-weight: 600;
+width: 400px;
+line-height: 30px;}
+
+.bannerbtn{margin:30px;}
+
+.bannerbtn a{padding: 10px;
+width: 28px;
+background-color: red;
+color: black;
+font-size: 20px;
+border-radius: 5px;
+}
+
+.bannerbtn a:hover{background-color: rgb(0, 0, 0);
+color: rgb(237, 11, 11);
+border: 1px solid;}
+
+
+/* bannerpart end */
+
+.ser{color: red;
+text-align: center;
+line-height: 8;
+font-size: 50px;}
+
+#boxxx3{background-color: black;}
+
+.boxxx3con{display: flex;
+justify-content: space-between;}
+
+.boxxx{padding: 120px 0;
+width: 230px;
+background-color: black;
+border: 1px red solid;
+ box-shadow: -1px 19px 17px 5px rgb(247 26 26);}
+
+.bw{color: red;
+font-size: 30px;}
+
+
+
+/* boxxx3 end */
+
+
+
+#aboutus{background-color: black;
+padding: 70px 0;}
+
+.boX{background-color: red;
+padding: 170px 0;
+width: 600px;
+border: 1px black solid;
+margin-left: 300px;}
+
+.aus{text-align: center;
+font-size: 40px;
+font-weight: 800;
+line-height: 3;}
+
+.infos{display: flex;
+justify-content: space-between;
+padding: 30px 0;}
+
+.safex{color: rgb(99, 6, 6);
+font-size: 30px;}
+
